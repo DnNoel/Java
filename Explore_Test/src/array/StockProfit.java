@@ -23,16 +23,3 @@ public class StockProfit {
 		System.out.println("TestCase 3 - Maximum Profit: " + sp.maxProfit(prices3));
 	}
 }
-
-/*
- * Explanation:
- * 
- * Initialization: Initialize maxProfit to 0. Iteration: Iterate through the
- * prices array starting from the second element. Profit Calculation: For each
- * day, check if the price of the stock on that day (prices[i]) is greater than
- * the price of the stock on the previous day (prices[i - 1]). Accumulate
- * Profit: If the price on the current day is higher, then add the difference to
- * maxProfit. Return Result: After the loop completes, maxProfit contains the
- * maximum profit that can be achieved.
- * 
- */

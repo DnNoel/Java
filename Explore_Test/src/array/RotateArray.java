@@ -40,23 +40,3 @@ public class RotateArray {
 		System.out.println("TestCase 2 : " + Arrays.toString(nums1));
 	}
 }
-
-/*
- * Explanation:
- * 
- * 
- * Input Validation: Checks if the input array nums is null or empty, or if k is
- * less than or equal to 0. If any of these conditions are true, it simply
- * returns without doing anything. Modulus Operation: k = k % nums.length
- * ensures that if k is larger than the length of the array, only rotate the
- * array by the remainder of k divided by the array's length. Reverse
- * Operations: First Reverse: Reverse the entire array. Second Reverse: Reverse
- * the first k elements. Third Reverse: Reverse the remaining elements from k to
- * the end of the array. reverse Function:
- * 
- * Reverses the elements of the array between the indices start and end. main
- * Method:
- * 
- * Demonstrates how to use the rotate function with an example array and prints
- * the rotated array.
- */

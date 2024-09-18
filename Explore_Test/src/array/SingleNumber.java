@@ -21,15 +21,3 @@ public class SingleNumber {
 		System.out.println(solution.singleNumber(nums2)); // Output: 1
 	}
 }
-
-/*
- * Explanation:
- * 
- (1) a ⊕ a = 0
- (2) a ⊕ 0 = a
- (3) a ⊕ b ⊕ a = b ⊕ (a ⊕ a) = b ⊕ 0 = b
-The variable unique is initialized to 0.
-The for loop goes through each number in the array, XOR-ing it with unique.
-After the loop, unique contains the number that appears only once.
-The main method provides a sample input and demonstrates the usage of the singleNumber method
-*/
